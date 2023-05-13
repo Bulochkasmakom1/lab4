@@ -2,13 +2,13 @@ package com.example.lab4;
 
 
 
-public class MultiDimensionalArray {
+public class MyNdArray {
     private final int[] dims;
     private final int[] strides;
 
     public final double[] data;
 
-    public MultiDimensionalArray(int... dims) {
+    public MyNdArray(int... dims) {
         this.dims = dims;
         this.strides = new int[dims.length];
         int stride = 1;

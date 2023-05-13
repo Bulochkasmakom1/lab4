@@ -3,9 +3,9 @@ package com.example.lab4;
 
 import java.util.Arrays;
 
-public class Main {
+public class NdArrayAccess {
     public static void main(String[] args) {
-        MultiDimensionalArray arr = new MultiDimensionalArray(3, 3, 3, 4);
+        MyNdArray arr = new MyNdArray(3, 3, 3, 4);
 
         // Заполним массив случайными значениями
         for (int i = 0; i < arr.data.length; i++) {
